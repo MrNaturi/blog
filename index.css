@@ -24,6 +24,10 @@ body{
     border-radius: 12px;
     overflow: hidden;
 }
+#yb:hover{
+    color: hsl(47, 88%, 63%);
+    background-color: black;
+}
 #yb{
     background-color: hsl(47, 88%, 63%);
     width: fit-content;
@@ -40,6 +44,9 @@ body{
 }
 h2{
     font-weight: bolder;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%)
 }
 #grey{
     font-size: 16px;
@@ -120,4 +127,11 @@ h2{
         height: 10%;
         width: 10%;
         margin-right: 4%;
+    }
+    #yb:hover{
+        color: hsl(47, 88%, 63%);
+        background-color: black;
+    }
+    h2:hover{
+        color: hsl(47, 88%, 63%)
     }
