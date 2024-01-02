@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#card{
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;    
+    margin-top: 5%;
+    width: 23%;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 5px 5px black;
+    
+}
+#img{
+    border-radius: 12px;
+    overflow: hidden;
+}
+#yb{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    margin-top: 15px;
+    padding: 2.5%;
+    border-radius: 12%;
+    font-weight: 1000;
+    font-size: 13px;
+}
+#subscript{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+h2{
+    font-weight: bolder;
+}
+#grey{
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+#final{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+}
+#final img{
+    height: 10%;
+    width: 10%;
+    margin-right: 4%;
+}
